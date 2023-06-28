@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/Image3.jpg'
+import ME from '../../assets/Image4.jpg'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderActive} from 'react-icons/vsc'
 
@@ -10,23 +10,23 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
+      <div className="about_container">
         <div className="about_me">
-          <div className="about__me-image">
+          <div className="about_me-image">
             <img src={ME} alt="About Image" />
           </div>
         </div>
 
-        <div className="about__content">
+        <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <FaAward className="about__icon"/>
+              <FaAward className="about_icon"/>
               <h5>Experience</h5>
               <small>15+ Months</small>
             </article>
 
             <article className="about_card">
-              <VscFolderActive className="about__icon"/>
+              <VscFolderActive className="about_icon"/>
               <h5>Projects</h5>
               <small>{/*Insert number of completed projects here */}</small>
             </article>
