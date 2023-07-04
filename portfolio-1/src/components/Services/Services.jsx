@@ -18,27 +18,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
           </ul>
 
@@ -54,33 +54,29 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
-            <li>
-              <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
-            </li>
           </ul>
 
         </article>
@@ -95,27 +91,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>Insert Project Name Here</p>
+              <p>List Details Here</p>
             </li>
           </ul>
 

@@ -7,6 +7,51 @@ import IMG4 from '../../assets/Portfolio4.jpg'
 import IMG5 from '../../assets/Portfolio5.jpg'
 import IMG6 from '../../assets/Portfolio6.jpg'
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: {/*Insert Name of Project*/},
+    github: {/*Insert Github project link*/},
+    demo: {/*Insert live demo link*/}
+  }
+]
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -14,15 +59,34 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        
+
+        {/* 
+          data.map(({id, image, title, github, demo}) => {
+            return (
+              <article key={id} className="portfolio_item">
+              <div className="portfolio_item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio_item-cta">
+                <a href={github} className="btn">Github</a>
+                <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+              </div>
+              </article>
+            )
+          }) 
+        */}
+
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -31,8 +95,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -41,8 +107,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -51,8 +119,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -61,8 +131,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className="portfolio_item">
@@ -71,8 +143,10 @@ const Portfolio = () => {
           </div>
           <h3>This is a portfolio item title</h3>
           {/*Add href="link to github project below"*/}
-          <a href="" className="btn">Github</a>
-          <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn">Github</a>
+            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+          </div>
         </article>
 
       </div>
