@@ -21,9 +21,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://www.linkedin.com/in/reginald-pitts-248073229/">< GrLinkedin /></a>
-        <a href="https://www.instagram.com/reggiep_93/"><TfiInstagram /></a>
-        <a href="https://www.facebook.com/truthsrebirth"><GrFacebook /></a>
+        <a href="https://www.linkedin.com/in/reginald-pitts-248073229/" target="_blank">< GrLinkedin /></a>
+        <a href="https://www.instagram.com/reggiep_93/" target="_blank"><TfiInstagram /></a>
+        <a href="https://www.facebook.com/truthsrebirth" target="_blank"><GrFacebook /></a>
       </div>
 
       <div className="footer_copyright">
