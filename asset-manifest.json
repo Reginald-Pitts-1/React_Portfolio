@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.8f4bf31a.css",
+    "main.js": "/React_Portfolio/static/js/main.03272946.js",
+    "static/media/Image4.jpg": "/React_Portfolio/static/media/Image4.2719024b48640c05904c.jpg",
+    "static/media/Image1.jpg": "/React_Portfolio/static/media/Image1.bf4fb276ffa5be1cda97.jpg",
+    "static/media/Portfolio6.jpg": "/React_Portfolio/static/media/Portfolio6.ae4723dd3d0ba5c151b3.jpg",
+    "static/media/Portfolio1.png": "/React_Portfolio/static/media/Portfolio1.c6abe06326e490102221.png",
+    "static/media/Portfolio3.jpg": "/React_Portfolio/static/media/Portfolio3.c8517c70fa00a607855d.jpg",
+    "static/media/Portfolio5.jpg": "/React_Portfolio/static/media/Portfolio5.2a0c88351301a4e9ea27.jpg",
+    "static/media/Portfolio2.jpg": "/React_Portfolio/static/media/Portfolio2.e67d61b32973a9f10a1a.jpg",
+    "static/media/Reginald_Pitts_Resume.pdf": "/React_Portfolio/static/media/Reginald_Pitts_Resume.e44591a1a56a39c1cc99.pdf",
+    "static/media/Portfolio4.jpg": "/React_Portfolio/static/media/Portfolio4.f4bf2a1df688f392fedd.jpg",
+    "index.html": "/React_Portfolio/index.html",
+    "main.8f4bf31a.css.map": "/React_Portfolio/static/css/main.8f4bf31a.css.map",
+    "main.03272946.js.map": "/React_Portfolio/static/js/main.03272946.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f4bf31a.css",
+    "static/js/main.03272946.js"
+  ]
+}
