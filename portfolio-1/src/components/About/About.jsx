@@ -23,17 +23,19 @@ const About = () => {
               <FaAward className="about_icon"/>
               <h5>Experience</h5>
               <small>15+ Months</small>
+              <h6>Full Stack Coding Bootcamp Certificate</h6>
+              <h6>University of Texas at Austin</h6>
             </article>
 
             <article className="about_card">
               <VscFolderActive className="about_icon"/>
-              <h5>Projects</h5>
+              <a href="#portfolio"><h5>Projects</h5></a>
               <small>{/*Insert number of completed projects here */}</small>
             </article>
           </div>
 
           <p>
-            Highly driven beginner software developer with growing knowledge in Javascript, React, and MySQL. As a certified full stack development program graduate, I'm ready to to contribute my passion and skills to help drive innovation as a front end web developer.
+            Hello! I'm Reggie, a software developer based in Austin, TX who has entry level knowledge of creating front end, back end, and full stack web applications from scratch to production. Highly driven beginner software developer with growing knowledge in Javascript, React, and MySQL. As a certified full stack development program graduate, I'm ready to to contribute my passion and skills to help drive innovation as a front end web developer.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
