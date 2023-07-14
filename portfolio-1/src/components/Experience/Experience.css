@@ -40,6 +40,10 @@
     color: var(--color-primary);
 }
 
+h4 {
+    color:limegreen;
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
     .experience_container {
