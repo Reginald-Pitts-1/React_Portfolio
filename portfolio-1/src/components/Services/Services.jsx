@@ -18,27 +18,27 @@ const Services = () => {
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Utilize Pseudo-classes & Pseudo-elements</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Wireframing</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Layout using Flexbox & Grid</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Targeting Different Devices with Media Queries</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Positioning</p>
             </li>
           </ul>
 
@@ -48,33 +48,33 @@ const Services = () => {
         <article className ="service">
           
           <div className="service_head">
-            <h3>Web Development</h3>
+            <h3>JS Web Development</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Clean Functional Code</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Data Structure</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>DOM Manipulation</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Testing/Debugging</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Framework</p>
             </li>
 
           </ul>
@@ -85,33 +85,33 @@ const Services = () => {
         <article className ="service">
           
           <div className="service_head">
-            <h3>Content Creation</h3>
+            <h3>React.js</h3>
           </div>
 
           <ul className="service_list">
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>JSX Components</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Function Declarations & Arrow Functions</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Array Methods</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Importing & Exporting</p>
             </li>
 
             <li>
               <LiaCheckCircle className="service_list-icon" />
-              <p>List Details Here</p>
+              <p>Object Creation</p>
             </li>
           </ul>
 
