@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerFill} from 'react-icons/ri'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import {FaLongArrowAltRight} from 'react-icons/fa'
 
 const Contact = () => {
   const form = useRef();
@@ -33,14 +33,10 @@ const Contact = () => {
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>reginaldpitts1@gmail.com</h5>
-            <a href="mailto:reginaldpitts1@gmail.com" target="_blank">Send a message</a>
           </article>
 
           <article className="contact_option">
-            <RiMessengerFill className="contact_option-icon" />
-            <h4>Messenger</h4>
-            <h5>reginaldpitts1@gmail.com</h5>
-            <a href="https://m.me/truthsrebirth" target="_blank">Send a message</a>
+            <p>Send A Message <FaLongArrowAltRight /> <FaLongArrowAltRight /></p>
           </article>
 
         </div>

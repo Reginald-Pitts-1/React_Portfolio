@@ -36,6 +36,11 @@
     font-size: 0.8rem;
 }
 
+p {
+    color:orangered;
+    font-size: large;
+}
+
 /* ========== FORM ========== */
 
 form {
