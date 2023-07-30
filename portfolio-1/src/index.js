@@ -6,10 +6,3 @@ import './index.css';
 ReactDOM.render(<App/>, document.getElementById('root'));
 
 /* Add a function that returns <App /> ? */
-const portfolio = () => {
-    return (
-        <>
-          <App />
-        </>      
-    )
-};
