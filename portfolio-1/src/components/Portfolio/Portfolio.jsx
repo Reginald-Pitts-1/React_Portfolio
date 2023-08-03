@@ -81,10 +81,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>React (Notes-App)</h3>
           {/*Add href="link to github project below"*/}
           <div className="portfolio_item-cta">
-            <a href="" className="btn">Github</a>
+            <a href="https://github.com/Reginald-Pitts-1/React-Notes-App" className="btn">Github</a>
             <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
         </article>
