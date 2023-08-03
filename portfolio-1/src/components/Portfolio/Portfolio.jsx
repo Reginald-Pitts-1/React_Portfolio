@@ -85,7 +85,7 @@ const Portfolio = () => {
           {/*Add href="link to github project below"*/}
           <div className="portfolio_item-cta">
             <a href="https://github.com/Reginald-Pitts-1/React-Notes-App" className="btn">Github</a>
-            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://portfolio-1-6swlojbvo-reginaldpitts1-gmailcom.vercel.app" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
         </article>
 
