@@ -124,30 +124,6 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Insert Project Title Here</h3>
-          {/*Add href="link to github project below"*/}
-          <div className="portfolio_item-cta">
-            <a href="" className="btn">Github</a>
-            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>Insert Project Title Here</h3>
-          {/*Add href="link to github project below"*/}
-          <div className="portfolio_item-cta">
-            <a href="" className="btn">Github</a>
-            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
       </div>
     </section>
   )
