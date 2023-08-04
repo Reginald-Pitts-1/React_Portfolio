@@ -82,9 +82,8 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>React (Notes-App)</h3>
-          {/*Add href="link to github project below"*/}
           <div className="portfolio_item-cta">
-            <a href="https://github.com/Reginald-Pitts-1/React-Notes-App" className="btn">Github</a>
+            <a href="https://github.com/Reginald-Pitts-1/React-Notes-App" className="btn" target='_blank'>Github</a>
             <a href="https://portfolio-1-6swlojbvo-reginaldpitts1-gmailcom.vercel.app" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
         </article>
@@ -93,11 +92,11 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
-          {/*Add href="link to github project below"*/}
+          <h3>Event-Easy</h3>
+          <h3>(Group Project)</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn">Github</a>
-            <a href="" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/Reginald-Pitts-1/Project01-SuperHardworkingInnovativeTeam" className="btn" target='_blank'>Github</a>
+            <a href="https://damien-shoemake.github.io/Project01-SuperHardworkingInnovativeTeam/" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
         </article>
 
