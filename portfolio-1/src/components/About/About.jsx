@@ -24,7 +24,7 @@ const About = () => {
               <h5>Experience</h5>
               <small>15+ Months</small>
               <h6>Full Stack Coding Bootcamp Certificate</h6>
-              <h6>University of Texas at Austin</h6>
+              <h6>-- University of Texas at Austin --</h6>
             </article>
 
             <article className="about_card">
@@ -35,7 +35,7 @@ const About = () => {
           </div>
 
           <p>
-            Hello! I'm Reggie, a software developer based in Austin, TX who has entry level knowledge of creating front end, back end, and full stack web applications from scratch to production. Highly driven beginner software developer with growing knowledge in Javascript, React, and MySQL. As a certified full stack development program graduate, I'm ready to to contribute my passion and skills to help drive innovation as a front end web developer.
+            Hello! I'm Reggie, a software developer based in Austin, TX who has entry level knowledge of creating front end applications from scratch to production. Highly driven beginner software developer with growing knowledge in browser based technologies, including HTML, CSS, Javascript, as well as React.js framework. As a certified full stack development program graduate, I'm ready to to contribute my passion and skills to help drive innovation as a web developer.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
